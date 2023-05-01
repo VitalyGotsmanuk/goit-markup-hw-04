@@ -30,7 +30,8 @@ ul, ol {
 	padding-left: 0; /*прибрали стандартні поля*/
 }
 a {
-	text-decoration: none; /*прибрали підкреслення у всіх посилань*/
+	text-decoration: none; 
+	/*прибрали підкреслення у всіх посилань*/
 	/* color: inherit;*/
 }
 /* ======================== */
@@ -86,7 +87,6 @@ section{
 	padding: 120px 0;
 }
 .link{
-    color: currentColor;
 	line-height: 1.5;
 	letter-spacing: 0.02m;
 }
@@ -149,7 +149,7 @@ section{
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
-.text-body-medium{
+.text-body-medium, .text-medium-ftr {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -292,6 +292,16 @@ section{
 	gap: 24px;
 	justify-content: space-between;
 }
+.feature-icon {                            
+	height: 112px;
+	width: 264px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 8px;
+	
+	border-radius: 4px; 
+	background-color: var(--color-cloud);
+}
 
 .feature-item{
 	width: 264px;
@@ -330,6 +340,7 @@ section{
 }
 .team-txt{
 	text-align: center; 
+	margin: 8px;
 }
 
 .list-team{
@@ -338,14 +349,16 @@ section{
 	gap: 24px;
 }
 
-/*=== Footer styles ======*/
+/*=== Footer styles  ======*/
 .footer{
     background-color: var(--color-navy-blue);
-	color: var(--color-cloud);
 	padding: 100px 0;
 }
+.footer-container{
+	display: flex;
+}
 
-.logo-ft{
+.logo-ft, .text-medium-ftr{
 	display: inline-block;
 	margin-bottom: 16px;
 }
@@ -354,6 +367,42 @@ section{
     color: var(--color-cloud);
 	max-width: 264px;
 }
+.footer-rt{
+	display: inline-block;
+	align-items: start;
+	margin-left: 120px;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+
+}
+.socials-item {
+		
+}
+.socials-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 40px;
+	height: 40px;
+	border-radius: 50%; /* Делает круг из квадрата*/
+	background-color: var(--color-iris);
+
+}
+.social-icon {
+	fill: var(--color-cloud);
+}
+.socials-link:hover {
+	background-color: var(--color-green);
+}
+
+
+
 /*=========================*/
 
 /*=== For POrtfolio page ===*/
@@ -432,7 +481,6 @@ section{
 .portfolio-card:focus{
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 
 .portfolio-list-itm
 {
