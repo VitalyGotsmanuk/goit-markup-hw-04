@@ -377,6 +377,9 @@ section{
     color: #ffffff;
 	max-width: 264px;
 }
+.footer-lft {
+	margin-right: 120px;
+}
 .footer-rt{
 	display: inline-block;
 	align-items: start;
