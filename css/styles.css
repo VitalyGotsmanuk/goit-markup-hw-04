@@ -390,11 +390,15 @@ section{
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
+}
 
+.socials-ftr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
 }
-.socials-item {
-		
-}
+
 .socials-link,
 .socials-link-ftr {
 	display: flex;
