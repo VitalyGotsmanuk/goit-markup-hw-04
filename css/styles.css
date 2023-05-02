@@ -365,7 +365,6 @@ section{
 .footer-container{
 	display: flex;
 	align-items: baseline;
-	gap: 120px;
 }
 
 .logo-ft, .text-medium-ftr{
