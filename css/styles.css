@@ -286,7 +286,7 @@ section{
 }
 /* ===== ====== =====*/
 
-
+/* ===== Section 2 =====*/
 .feature-list {
 	display: flex;
 	gap: 24px;
@@ -306,6 +306,8 @@ section{
 .feature-item{
 	width: 264px;
 }
+
+/* ===== Section 3 =====*/
 .wedo{
 	padding-top: 0;
 }
@@ -319,8 +321,7 @@ section{
 	width: calc((100% - 48px) / 3);
 	/*(від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку) (можна використовувати width: calc((100% - 3 * 16px) / 3) або flex-basis: calc((100% - 48px) / 3) або flex-basis: calc((100% - 3 * 16px) / 3))*/
 
-
-/* ==== For Team ====*/
+/* ====  4 For Team ====*/
 .team{
 	background-color: #f4f4fd;
 }
@@ -372,7 +373,9 @@ section{
 	align-items: start;
 	margin-left: 120px;
 }
+/*=========================*/
 
+/* ==== Иконки социальных сетей ==== */
 .socials {
 	display: flex;
 	justify-content: center;
@@ -400,10 +403,42 @@ section{
 .socials-link:hover {
 	background-color: var(--color-green);
 }
+/* ========================== */
 
+/* ==== Иконки Customers ==== */
+.customer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
 
+}
+.customer-item {
+		
+}
+.customer-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 168px;
+	height: 88px;
+	border: 1px solid #8E8F99;
+	border-radius: 4px; 
+	background-color: none;
+
+}
+.customer-icon {
+	fill: #8E8F99;
+}
+.customer-link:hover  {
+	border: 1px solid var(--color-ocean);
+}
+.customer-icon:hover {
+	fill: var(--color-ocean);}
 
 /*=========================*/
+
 
 /*=== For POrtfolio page ===*/
 
