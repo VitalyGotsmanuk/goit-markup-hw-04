@@ -85,6 +85,7 @@ section{
 	padding-top: 120px;
 	padding-bottom: 120px;
 	padding: 120px 0;
+	
 }
 .link{
 	line-height: 1.5;
@@ -180,7 +181,8 @@ section{
     background-color: var(--color-white);
 	padding-top: 0px;
 	padding-bottom: 0px;
-	border-bottom: 1px solid #e7e9fc
+	border-bottom: 1px solid #e7e9fc;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-nav{
 	display: flex;
@@ -222,12 +224,13 @@ section{
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero/hero-bgpeople-office1.jpg);
 	
-	background-position: top right;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	max-width: 1440px;
 	
 	padding: 188px 0;
-	
 }
 .button{
 	display: block;
@@ -293,6 +296,10 @@ section{
 	justify-content: space-between;
 }
 .feature-icon {                            
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	height: 112px;
 	width: 264px;
 	padding-top: 24px;
@@ -304,7 +311,7 @@ section{
 }
 
 .feature-item{
-	width: 264px;
+	
 }
 
 /* ===== Section 3 =====*/
