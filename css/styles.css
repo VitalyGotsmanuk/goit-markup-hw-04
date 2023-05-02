@@ -343,7 +343,7 @@ section{
 	text-align: center;
 }
 .team-card{
-	padding: 32px 16px;
+	padding: 32px 0px;
 
 }
 .team-txt{
@@ -364,6 +364,8 @@ section{
 }
 .footer-container{
 	display: flex;
+	align-items: baseline;
+	gap: 120px;
 }
 
 .logo-ft, .text-medium-ftr{
@@ -372,13 +374,13 @@ section{
 }
 
 .footer-txt{
-    color: var(--color-cloud);
+    color: #ffffff;
 	max-width: 264px;
 }
 .footer-rt{
 	display: inline-block;
 	align-items: start;
-	margin-left: 120px;
+	/*margin-left: 120px;*/
 }
 /*=========================*/
 
@@ -387,13 +389,14 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 16px;
+	gap: 24px;
 
 }
 .socials-item {
 		
 }
-.socials-link {
+.socials-link,
+.socials-link-ftr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -407,9 +410,15 @@ section{
 .social-icon {
 	fill: var(--color-cloud);
 }
-.socials-link:hover {
-	background-color: var(--color-green);
+.socials-link:hover,
+.socials-link:focus {
+	background-color: #404bbf;
 }
+
+.socials-link-ftr:hover,
+.socials-link-ftr:focus {
+	background-color: #31d0aa;}
+
 /* ========================== */
 
 /* ==== Иконки Customers ==== */
